@@ -1,8 +1,8 @@
 import unittest
 from MT import MT
 
-class CompraTeste(unittest.TestCase):
-    def test_frete_gratis(self):
+class Testclass(unittest.TestCase):
+    def test_aceitacao(self):
         mt_teste = MT()
         self.assertTrue(mt_teste.analisaPalavra('01'))
         self.assertTrue(mt_teste.analisaPalavra('011'))
